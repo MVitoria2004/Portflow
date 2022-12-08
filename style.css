@@ -4,25 +4,24 @@
     margin: 0px;
     box-sizing: border-box;
   }
-   header{
-    
+   header {
+    border:solid red 3px;
     height: 18vh;
     display:flex;
+    flex-direction: row;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
+    
    }
    header figure img{
-    
     height: 5vh;
   }
-  header ul{
-    border:solid green 3px;
-    width: 20vw;
+  ul nav header{
     list-style: none;
     display:flex;
-    align-items: flex-end;
-    justify-content: space-evenly;
+    align-items: center;
   }
+   
   .logoNav{
     border:solid black 3px;
   }
@@ -30,7 +29,7 @@
 h2{
   color: #FFFFFF;
   width: 34vw;
-  height: 10vh;
+  height: 1vh;
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   font-size: 30px;
@@ -39,9 +38,8 @@ h2{
 }
 
     h1{
-    
     width: 73vw;
-    height: 20vh;
+    height: 21vh;
     font-size: 50px;
     color:white;
     font-family: 'Montserrat', sans-serif;
