@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+   header{
+    border:solid red 3px;
+    height: 18vh;
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+   }
+   header figure img{
+    border:solid red 2px;
+    height: 5vh;
+  }
+  header ul{
+    border:solid green 3px;
+    width: 20vw;
+    list-style: none;
+    display:flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+  }
+  .logoNav{
+    border:solid black 3px;
+  }
+   main section {
+    border:solid red 3px;
+    height: 100vh;
+    background-image:url(./Assets/laranja\ azul\ recorte.png);
+    background-size: cover;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+
+    h1{
+    width: 56vw;
+    font-size: 50px;
+    color:white;
+    font-family:'Montserrat', sans-serif;
+    position:relative;
+    left: 100px;
+    text-align: center;
+}
+    h2{
+        border:solid yellow 3px;
+        width: 60vw;
+        height: 60vh;
+    font-family: 'Montserrat', Light;
+    }
