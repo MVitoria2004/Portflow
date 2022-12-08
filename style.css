@@ -1,18 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;800&display=swap');
 * {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
   }
    header{
-    border:solid red 3px;
+    
     height: 18vh;
     display:flex;
     align-items: center;
     justify-content: flex-end;
    }
    header figure img{
-    border:solid red 2px;
+    
     height: 5vh;
   }
   header ul{
@@ -26,30 +26,41 @@
   .logoNav{
     border:solid black 3px;
   }
-   main section {
-    border:solid red 3px;
-    height: 100vh;
-    background-image:url(./Assets/laranja\ azul\ recorte.png);
-    background-size: cover;
-    display:flex;
-    justify-content: space-around;
-    align-items: center;
-    
-    
+   
+h2{
+  color: #FFFFFF;
+  width: 34vw;
+  height: 10vh;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  text-align: center;
+
 }
 
     h1{
-    width: 56vw;
+    
+    width: 73vw;
+    height: 20vh;
     font-size: 50px;
     color:white;
-    font-family:'Montserrat', sans-serif;
-    position:relative;
-    left: 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
     text-align: center;
 }
-    h2{
-        border:solid yellow 3px;
-        width: 60vw;
-        height: 60vh;
-    font-family: 'Montserrat', Light;
-    }
+main section {
+  
+  height: 100vh;
+  background-image:url(./Assets/laranja\ azul\ recorte.png);
+  background-size: cover;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+
+ 
+
+}
+    
