@@ -37,14 +37,16 @@ ul {
 
 li {
   list-style: none;
+  margin-left: 5%;
 }
 
-#Laranjaazul {
+.Laranjaazul {
   width: 100%;
   height: 80vh;
   background-image: url(.//Assets/laranja\ azul\ recorte.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: bottom;
 }
 
 .mainPrincipal {
@@ -61,12 +63,13 @@ li {
 
 .mainPrimeira h2 {
   color: white;
-  font-size: 4rem;
+  font-size: clamp(2rem, 5vw, 4rem);
+
 }
 
 h4 {
   color: white;
-  font-size: 2rem;
+  font-size: clamp(1rem, 2vw, 2rem);
 }
 
 .produtosMain {
@@ -97,7 +100,7 @@ h4 {
   justify-content: space-evenly;
   margin-top: 10px;
   margin-bottom: 15px;
-  
+
 }
 
 .produtos3 {
@@ -117,9 +120,113 @@ h4 {
 }
 
 footer {
+  display:flex;
+  align-items: center;
   width: 100%;
-  height: 100%;}
-  
-footer img{
-width: 100%;
+  height: 20vh;
+  background-color:#DCDCDC;
+  justify-content:center;
+
 }
+
+.footerPrincipal{
+  width: 50%;
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.footerIcons{
+  display:flex;
+  align-items: center;
+  gap:5%;
+}
+.footerIcons img{
+  
+  width: 15%;
+}
+.footerText{
+  font-size:clamp(2rem, 2vw, 3rem);
+  display:flex;
+  align-items: center;
+  margin-left:15%;
+  gap:3%;
+}
+.footerText h4{
+  color:black;
+  font-size:clamp(1rem, 1.5vw, 2rem);
+
+}
+.footerText p{
+font-size:clamp(0.6rem, 0.7vw, 2rem)
+}
+.footerInicio{
+  display:flex;
+  align-items: center;
+}
+@media (max-width:666px) {
+  .Menu {
+    width: 20%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .Menu span {
+    color: white;
+    font-size: 2rem;
+  }
+
+  header {
+    height: 5%;
+  }
+
+  header ul {
+    display: none;
+  }
+
+  .logo h1 {
+    margin-left: 25%;
+  }
+
+  .mainPrimeira {
+
+    flex-direction: column;
+  }
+.mainPrincipal{
+  align-items: flex-start;
+  justify-content: end;
+  position:relative;
+  bottom:10%;
+  left:8%;
+  gap:1rem;
+}
+.produtos1, .produtos2, .produtos3{
+  flex-direction: column;
+  align-items: center;
+
+}
+.produtoIMG{
+  width:90%;
+  margin-top: 5%;
+  
+}
+.footerPrincipal{
+  flex-direction: column;
+  width: 100%;
+}
+.footerIcons{
+  justify-content: center;
+    width: 100%;
+  background-color:#14dfdf;
+}
+.footerText{
+  flex-direction: column;
+  align-items: flex-start;
+}
+.footerIcons img{
+  width: 10%;
+}
+
+}
+
